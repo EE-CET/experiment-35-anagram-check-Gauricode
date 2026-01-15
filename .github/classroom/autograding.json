@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "Example 1",
+      "setup": "javac src/AnagramCheck.java",
+      "run": "java -cp src AnagramCheck",
+      "input": "Triangle\nIntegral",
+      "output": "true",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    },
+    {
+      "name": "Standard Anagram (Listen/Silent)",
+      "setup": "javac src/AnagramCheck.java",
+      "run": "java -cp src AnagramCheck",
+      "input": "Listen\nSilent",
+      "output": "true",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    },
+    {
+      "name": "Not Anagram (Different Letters)",
+      "setup": "javac src/AnagramCheck.java",
+      "run": "java -cp src AnagramCheck",
+      "input": "Hello\nWorld",
+      "output": "false",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    },
+    {
+      "name": "Not Anagram (Different Lengths)",
+      "setup": "javac src/AnagramCheck.java",
+      "run": "java -cp src AnagramCheck",
+      "input": "apple\napples",
+      "output": "false",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    }
+  ]
+}
