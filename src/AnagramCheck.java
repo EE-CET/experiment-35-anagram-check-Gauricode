@@ -7,7 +7,7 @@ public class AnagramCheck {
 	String s1=input.nextLine().toLowerCase();
 	String s2=input.nextLine().toLowerCase();
 	if(s1.length()!=s2.length()){
-		System.out.println("False");
+		System.out.println("false");
 		return;
 	}
 	
